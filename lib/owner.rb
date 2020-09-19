@@ -74,7 +74,6 @@ end
       dogs.each do |dog|
         dog.mood = "nervous"
     end 
-    self = nil
 end 
 
   
