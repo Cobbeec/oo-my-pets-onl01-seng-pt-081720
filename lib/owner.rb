@@ -71,6 +71,8 @@ end
     cats.each do |cat|
      cat.mood = "nervous"
     end 
+    cat.owner =nil 
+  end 
       dogs.each do |dog|
         dog.mood = "nervous"
     end
