@@ -67,17 +67,7 @@ end
         end
  end 
  
-def sell_pets
-    cats.each do |pet, array|
-    end 
-      dogs.each do |pet,array| 
-      arr.map do |pet|
-        cat.mood = "nervous"
-        dog.mood = "nervous"
-      end
-      array.clear
-    end
-  end 
+
 
   
   def list_pets
