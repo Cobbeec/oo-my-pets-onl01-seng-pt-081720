@@ -74,7 +74,7 @@ end
       dogs.each do |dog|
         dog.mood = "nervous"
     end 
-    cats
+    @cats.clear 
   end 
 
   
