@@ -68,14 +68,14 @@ end
  end 
  
 def sell_pets
-    cats.each do |pet, arr|
+    cats.each do |pet, array|
     end 
-      dogs.each do |pet,arr| 
+      dogs.each do |pet,array| 
       arr.map do |pet|
         cat.mood = "nervous"
         dog.mood = "nervous"
       end
-      arr.clear
+      array.clear
     end
   end 
 
