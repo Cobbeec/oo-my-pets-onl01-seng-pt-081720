@@ -70,11 +70,9 @@ end
  def sell_pets
     cats.each do |cat|
      cat.mood = "nervous"
-     owner == nil 
     end 
       dogs.each do |dog|
         dog.mood = "nervous"
-        owner == nil 
     end
   end 
 
