@@ -75,7 +75,6 @@ end
         dog.mood = "nervous"
     end 
     @cats.clear 
-  end 
   @dogs.clear 
 end 
 
