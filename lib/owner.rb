@@ -68,14 +68,15 @@ end
  end 
  
  def sell_pets
-    cats.each do |cat|
-     cat.mood = "nervous"
-    end 
-      dogs.each do |dog|
+    cats.each do |pet, arr|
+      dogs.each do |pet,arr| 
+      arr.map do |pet|
+        cat.mood = "nervous"
         dog.mood = "nervous"
+      end
+      arr.clear
     end
-end 
-  
+  end
   
   def list_pets
     "I have #{dogs.count} dog(s), and #{cats.count} cat(s)."
