@@ -76,6 +76,8 @@ end
     end 
     @cats.clear 
   end 
+  @dogs.clear 
+end 
 
   
   def list_pets
