@@ -70,7 +70,7 @@ end
  def sell_pets
     cats.each do |cat|
      cat.mood = "nervous"
-      self = nil 
+      cat.self = nil 
   end 
       dogs.each do |dog|
         dog.mood = "nervous"
