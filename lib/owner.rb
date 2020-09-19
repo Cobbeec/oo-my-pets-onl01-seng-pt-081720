@@ -12,7 +12,6 @@ class Owner
     @@all << self 
       @cats = []
       @dogs =[]
-      @pets = {:dogs => [], :cats => []}
   end 
 
 def say_species 
