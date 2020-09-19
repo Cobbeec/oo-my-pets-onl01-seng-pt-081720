@@ -74,7 +74,7 @@ end
       dogs.each do |dog|
         dog.mood = "nervous"
     end
-    if cat.mood = "nervous"
+    if @cats.mood = "nervous"
       self.owner="nil"
     end 
   end 
